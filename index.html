@@ -1,0 +1,753 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vania's Portfolio · The Codex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Cinzel:wght@400;600;700&family=Cinzel+Decorative:wght@400;700&family=Share+Tech+Mono&family=IM+Fell+English:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- floating runes -->
+    <div
+      class="rune"
+      style="left: 12%; top: 30%; animation-delay: 0s; animation-duration: 9s"
+    >
+      ᚛
+    </div>
+    <div
+      class="rune"
+      style="left: 78%; top: 60%; animation-delay: 3s; animation-duration: 11s"
+    >
+      ᚈ
+    </div>
+    <div
+      class="rune"
+      style="left: 55%; top: 20%; animation-delay: 6s; animation-duration: 8s"
+    >
+      ᚜
+    </div>
+
+    <!-- NAV -->
+    <nav>
+      <a href="#" class="nav-logo">✦Vania · The Codex</a>
+      <ul class="nav-links">
+        <li><a href="#about-section">Stats</a></li>
+        <li><a href="#skills-section">Skills</a></li>
+        <li><a href="#projects-section">Quests</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+      <div class="hero-grid-bg"></div>
+      <div class="hero-orb"></div>
+
+      <div class="hero-left">
+        <div class="hero-tag">Vania · Software Developer · LVL 7</div>
+
+        <h1>
+          Code by Day.<br /><span class="accent-gold">Read</span> by Night.<br /><span
+            class="accent-cyan"
+            >Play</span
+          >
+          Always.
+        </h1>
+
+        <p class="hero-subtitle">
+          Where elegant code meets ancient lore — a developer who treats every
+          system like a world to build, every book like a mechanic to master.
+        </p>
+
+        <div class="xp-section">
+          <div class="xp-label">
+            <span>EXP ████████████░░░░</span>
+            <span style="color: var(--gold)">7,420 / 10,000 XP</span>
+          </div>
+          <div class="xp-bar">
+            <div class="xp-fill" style="width: 74%" id="xp-fill"></div>
+          </div>
+        </div>
+
+        <div class="cta-group">
+          <a href="#projects-section" class="btn-rpg btn-gold">▶ View Quests</a>
+          <a href="#contact" class="btn-rpg btn-outline">⌘ Open Comms</a>
+        </div>
+
+        <div class="stat-row">
+          <div class="stat-pill">
+            <span class="pip pip-gold"></span>Books Read: 147
+          </div>
+          <div class="stat-pill">
+            <span class="pip pip-cyan"></span>Projects: 26
+          </div>
+          <div class="stat-pill">
+            <span class="pip pip-purple"></span>Games Completed: 63
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT / CHARACTER SHEET -->
+    <section id="about-section">
+      <div class="about-grid">
+        <div class="fade-in">
+          <div class="section-header">
+            <p class="section-eyebrow">Character Sheet</p>
+            <h2 class="section-title">The Player<br />Behind the Code</h2>
+            <div class="gutter-line"></div>
+          </div>
+
+          <div class="char-sheet">
+            <div class="hud-corner hud-tl"></div>
+            <div class="hud-corner hud-tr"></div>
+            <div class="hud-corner hud-bl"></div>
+            <div class="hud-corner hud-br"></div>
+            <div class="char-sheet-title">
+              Character Profile
+              <span>v2.6 · Active</span>
+            </div>
+
+            <div class="char-avatar">V</div>
+
+            <div class="char-stat-row">
+              <span class="char-stat-label">CLASS</span
+              ><span class="char-stat-val">Full-Stack Dev</span>
+            </div>
+            <div class="char-stat-row">
+              <span class="char-stat-label">GUILD</span
+              ><span class="char-stat-val">Open Source</span>
+            </div>
+            <div class="char-stat-row">
+              <span class="char-stat-label">ALIGNMENT</span
+              ><span class="char-stat-val">Chaotic Good</span>
+            </div>
+            <div class="char-stat-row">
+              <span class="char-stat-label">SPEC</span
+              ><span class="char-stat-val">JavaScript / Python</span>
+            </div>
+
+            <div style="height: 1rem"></div>
+
+            <div class="char-bar-row">
+              <div
+                class="char-bar-label"
+                style="
+                  font-size: 0.6rem;
+                  color: var(--text-muted);
+                  margin-bottom: 0.2rem;
+                "
+              >
+                Coding
+              </div>
+              <div
+                class="char-bar-label"
+                style="
+                  font-size: 0.6rem;
+                  color: var(--text-muted);
+                  margin-bottom: 0.2rem;
+                  text-align: right;
+                "
+              >
+                92
+              </div>
+            </div>
+            <div class="char-bar">
+              <div class="char-bar-fill bar-code" style="width: 92%"></div>
+            </div>
+
+            <div style="height: 0.5rem"></div>
+            <div class="char-bar-row">
+              <div
+                class="char-bar-label"
+                style="
+                  font-size: 0.6rem;
+                  color: var(--text-muted);
+                  margin-bottom: 0.2rem;
+                "
+              >
+                Lore (Reading)
+              </div>
+              <div
+                class="char-bar-label"
+                style="
+                  font-size: 0.6rem;
+                  color: var(--text-muted);
+                  margin-bottom: 0.2rem;
+                  text-align: right;
+                "
+              >
+                88
+              </div>
+            </div>
+            <div class="char-bar">
+              <div class="char-bar-fill bar-book" style="width: 88%"></div>
+            </div>
+
+            <div style="height: 0.5rem"></div>
+            <div class="char-bar-row">
+              <div
+                class="char-bar-label"
+                style="
+                  font-size: 0.6rem;
+                  color: var(--text-muted);
+                  margin-bottom: 0.2rem;
+                "
+              >
+                Gaming
+              </div>
+              <div
+                class="char-bar-label"
+                style="
+                  font-size: 0.6rem;
+                  color: var(--text-muted);
+                  margin-bottom: 0.2rem;
+                  text-align: right;
+                "
+              >
+                79
+              </div>
+            </div>
+            <div class="char-bar">
+              <div class="char-bar-fill bar-game" style="width: 79%"></div>
+            </div>
+
+            <div style="height: 0.5rem"></div>
+            <div class="char-bar-row">
+              <div
+                class="char-bar-label"
+                style="
+                  font-size: 0.6rem;
+                  color: var(--text-muted);
+                  margin-bottom: 0.2rem;
+                "
+              >
+                System Design
+              </div>
+              <div
+                class="char-bar-label"
+                style="
+                  font-size: 0.6rem;
+                  color: var(--text-muted);
+                  margin-bottom: 0.2rem;
+                  text-align: right;
+                "
+              >
+                85
+              </div>
+            </div>
+            <div class="char-bar">
+              <div class="char-bar-fill bar-design" style="width: 85%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="fade-in" style="transition-delay: 0.2s">
+          <div class="about-text">
+            <p>
+              I'm a software developer who lives at the intersection of
+              <strong>three obsessions: code, books, and games</strong>. Each
+              one feeds the others in ways that make me a better engineer — and
+              a more interesting person to work with.
+            </p>
+            <p>
+              From books I learn structure, clarity, and the art of revision.
+              From games I learn systems thinking, feedback loops, and the joy
+              of debugging a broken mechanic. From code I build the worlds that
+              both inspire.
+            </p>
+            <p>
+              <strong>Every project I develop is a quest completed.</strong>
+              Every system I design is a world with its own rules. Every commit
+              message is a line in a story worth reading.
+            </p>
+          </div>
+
+          <div class="log-panel">
+            <div class="log-item">
+              <div class="log-icon log-icon-book">📖</div>
+              <div class="log-item-meta">
+                <div class="log-item-name">The Let Them Theory</div>
+                <div class="log-item-sub">Self Help - Psychological</div>
+              </div>
+              <div class="log-progress">
+                <div
+                  class="log-progress-fill prog-gold"
+                  style="width: 100%"
+                ></div>
+              </div>
+              <div class="log-pct">100%</div>
+            </div>
+            <div class="log-item">
+              <div class="log-icon log-icon-game">🎮</div>
+              <div class="log-item-meta">
+                <div class="log-item-name">Apex Legends — From Software</div>
+                <div class="log-item-sub">2018 Game+ · Battle Royale</div>
+              </div>
+              <div class="log-progress">
+                <div
+                  class="log-progress-fill prog-cyan"
+                  style="width: 62%"
+                ></div>
+              </div>
+              <div class="log-pct">62%</div>
+            </div>
+            <div class="log-item">
+              <div class="log-icon log-icon-book">📖</div>
+              <div class="log-item-meta">
+                <div class="log-item-name">Outliers - The Story Of Success</div>
+                <div class="log-item-sub">Intellectual · Career</div>
+              </div>
+              <div class="log-progress">
+                <div
+                  class="log-progress-fill prog-gold"
+                  style="width: 100%"
+                ></div>
+              </div>
+              <div class="log-pct">100%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills-section">
+      <div style="max-width: 1200px; margin: 0 auto">
+        <div class="section-header fade-in">
+          <p class="section-eyebrow">Skill Tree</p>
+          <h2 class="section-title">Abilities Unlocked</h2>
+          <div class="gutter-line"></div>
+        </div>
+        <div class="skill-tree">
+          <div class="skill-node fade-in">
+            <div class="skill-node-header">
+              <div class="skill-node-icon">⚔</div>
+              <div class="skill-node-name">Languages</div>
+            </div>
+            <div class="skill-bars">
+              <div class="skill-bar-row">
+                <span class="skill-bar-label">TypeScript</span>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill bar-code" style="width: 60%"></div>
+                </div>
+                <span class="skill-bar-pct">60</span>
+              </div>
+              <div class="skill-bar-row">
+                <span class="skill-bar-label">Python</span>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill bar-code" style="width: 70%"></div>
+                </div>
+                <span class="skill-bar-pct">70</span>
+              </div>
+              <div class="skill-bar-row">
+                <span class="skill-bar-label">C++</span>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill bar-code" style="width: 50%"></div>
+                </div>
+                <span class="skill-bar-pct">50</span>
+              </div>
+              <div class="skill-bar-row">
+                <span class="skill-bar-label">SQL</span>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill bar-code" style="width: 80%"></div>
+                </div>
+                <span class="skill-bar-pct">80</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-node fade-in" style="transition-delay: 0.1s">
+            <div class="skill-node-header">
+              <div class="skill-node-icon">🛡</div>
+              <div class="skill-node-name">Frameworks</div>
+            </div>
+            <div class="skill-bars">
+              <div class="skill-bar-row">
+                <span class="skill-bar-label">React / Next</span>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill bar-code" style="width: 50%"></div>
+                </div>
+                <span class="skill-bar-pct">50</span>
+              </div>
+              <div class="skill-bar-row">
+                <span class="skill-bar-label">Node / Express</span>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill bar-code" style="width: 85%"></div>
+                </div>
+                <span class="skill-bar-pct">85</span>
+              </div>
+              <div class="skill-bar-row">
+                <span class="skill-bar-label">FastAPI</span>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill bar-code" style="width: 50%"></div>
+                </div>
+                <span class="skill-bar-pct">50</span>
+              </div>
+              <div class="skill-bar-row">
+                <span class="skill-bar-label">Flask</span>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill bar-code" style="width: 60%"></div>
+                </div>
+                <span class="skill-bar-pct">60</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-node fade-in" style="transition-delay: 0.2s">
+            <div class="skill-node-header">
+              <div class="skill-node-icon">✦</div>
+              <div class="skill-node-name">Database</div>
+            </div>
+            <div class="skill-bars">
+              <div class="skill-bar-row">
+                <span class="skill-bar-label">PostgreSQL</span>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill bar-game" style="width: 70%"></div>
+                </div>
+                <span class="skill-bar-pct">70</span>
+              </div>
+              <div class="skill-bar-row">
+                <span class="skill-bar-label">Firebase</span>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill bar-game" style="width: 50%"></div>
+                </div>
+                <span class="skill-bar-pct">50</span>
+              </div>
+              <div class="skill-bar-row">
+                <span class="skill-bar-label">Supabase</span>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill bar-game" style="width: 40%"></div>
+                </div>
+                <span class="skill-bar-pct">40</span>
+              </div>
+              <div class="skill-bar-row">
+                <span class="skill-bar-label">MongoDB</span>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill bar-game" style="width: 40%"></div>
+                </div>
+                <span class="skill-bar-pct">40</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-node fade-in" style="transition-delay: 0.3s">
+            <div class="skill-node-header">
+              <div class="skill-node-icon">📜</div>
+              <div class="skill-node-name">Lore Skills</div>
+            </div>
+            <div class="skill-bars">
+              <div class="skill-bar-row">
+                <span class="skill-bar-label">Tech Writing</span>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill bar-book" style="width: 90%"></div>
+                </div>
+                <span class="skill-bar-pct">90</span>
+              </div>
+              <div class="skill-bar-row">
+                <span class="skill-bar-label">System Design</span>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill bar-book" style="width: 84%"></div>
+                </div>
+                <span class="skill-bar-pct">84</span>
+              </div>
+              <div class="skill-bar-row">
+                <span class="skill-bar-label">Mentorship</span>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill bar-book" style="width: 77%"></div>
+                </div>
+                <span class="skill-bar-pct">77</span>
+              </div>
+              <div class="skill-bar-row">
+                <span class="skill-bar-label">Storytelling</span>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill bar-book" style="width: 88%"></div>
+                </div>
+                <span class="skill-bar-pct">88</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS / QUEST LOG -->
+    <section id="projects-section">
+      <div class="quest-log">
+        <div class="section-header fade-in">
+          <p class="section-eyebrow">Quest Log</p>
+          <h2 class="section-title">Completed & Active Missions</h2>
+          <div class="gutter-line"></div>
+        </div>
+        <div class="quest-grid">
+          <div class="quest-card fade-in">
+            <div class="quest-header">
+              <div class="quest-status status-complete">
+                <div class="quest-status-dot"></div>
+                Complete
+              </div>
+              <div class="quest-difficulty diff-hard">◆◆◆ Hard</div>
+            </div>
+            <div class="quest-body">
+              <p class="quest-type">Agentic Development</p>
+              <h3 class="quest-title">Pakistan Service Orchestrator</h3>
+              <p class="quest-desc">
+                An end-to-end, agentic AI pipeline built to automate the
+                informal economy (AC technicians, plumbers, electricians,
+                tutors, beauticians) in Pakistan. It takes raw, natural language
+                requests in Urdu, Roman Urdu, or English, understands the
+                intent, discovers and ranks the best local providers, and
+                simulates the booking process—culminating in a WhatsApp-style
+                confirmation.
+              </p>
+              <div class="quest-tags">
+                <span class="quest-tag">Python</span>
+                <span class="quest-tag">FastAPI</span>
+                <span class="quest-tag">AI</span>
+                <span class="quest-tag">Antigravity</span>
+              </div>
+            </div>
+            <div class="quest-footer">
+              <a
+                href="https://github.com/VaniaAbbas01/Pakistan-Service-Orchestrator"
+                class="quest-link"
+                >↗ GitHub</a
+              >
+            </div>
+          </div>
+          <div class="quest-card fade-in">
+            <div class="quest-header">
+              <div class="quest-status status-complete">
+                <div class="quest-status-dot"></div>
+                Complete
+              </div>
+              <div class="quest-difficulty diff-hard">◆◆◆ Hard</div>
+            </div>
+            <div class="quest-body">
+              <p class="quest-type">Full-Stack · Open Source</p>
+              <h3 class="quest-title">SpeakEasy - AI Powered Speech Coach</h3>
+              <p class="quest-desc">
+                An AI Powered Speech Coach to aid in Public Speaking and assist
+                those who have Public Speaking Anxiety.
+              </p>
+              <div class="quest-tags">
+                <span class="quest-tag">Flask</span>
+                <span class="quest-tag">HuggingFace</span>
+                <span class="quest-tag">NLP</span>
+                <span class="quest-tag">AI</span>
+              </div>
+            </div>
+            <div class="quest-footer">
+              <a href="#" class="quest-link">↗ Live Site</a>
+              <a
+                href="https://github.com/VaniaAbbas01/SpeakEasy-AI-Powered-Speech-Coach"
+                class="quest-link"
+                >↗ GitHub</a
+              >
+            </div>
+          </div>
+
+          <div class="quest-card fade-in" style="transition-delay: 0.12s">
+            <div class="quest-header">
+              <div class="quest-status status-complete">
+                <div class="quest-status-dot"></div>
+                Complete
+              </div>
+              <div class="quest-difficulty diff-hard">◆◆ Hard</div>
+            </div>
+            <div class="quest-body">
+              <p class="quest-type">Mobile Application</p>
+              <h3 class="quest-title">Quoted</h3>
+              <p class="quest-desc">
+                An application that caters to the users to like quotes and
+                reaading. Users can publish and draft their own self-written
+                quotes just as they tweet about day-to-day lives on X.
+              </p>
+              <div class="quest-tags">
+                <span class="quest-tag">React-Native</span>
+                <span class="quest-tag">Firebase</span>
+                <span class="quest-tag">MySQL</span>
+              </div>
+            </div>
+            <div class="quest-footer">
+              <a href="#" class="quest-link">↗ Crates.io</a>
+              <a
+                href="https://github.com/VaniaAbbas01/Quoted-React-Native-Firebase-Application"
+                class="quest-link"
+                >↗ GitHub</a
+              >
+            </div>
+          </div>
+
+          <div class="quest-card fade-in" style="transition-delay: 0.24s">
+            <div class="quest-header">
+              <div class="quest-status status-complete">
+                <div class="quest-status-dot"></div>
+                Complete
+              </div>
+              <div class="quest-difficulty diff-med">◆◆◆ Medium</div>
+            </div>
+            <div class="quest-body">
+              <p class="quest-type">Web Application</p>
+              <h3 class="quest-title">Mathote</h3>
+              <p class="quest-desc">
+                A Mathematics based Note-Taking Application which integrates a
+                Scientific calculator, A Graph Generating Calculator and an
+                Equations-Solver
+              </p>
+              <div class="quest-tags">
+                <span class="quest-tag">NodeJs</span>
+                <span class="quest-tag">sqlite3</span>
+                <span class="quest-tag">Bootstrap</span>
+                <span class="quest-tag">RESTful APIs</span>
+              </div>
+            </div>
+            <div class="quest-footer">
+              <a href="#" class="quest-link">↗ Demo</a>
+              <a href="#" class="quest-link">↗ GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="section-header fade-in" style="text-align: center">
+        <p class="section-eyebrow" style="justify-content: center">
+          Open Comms
+        </p>
+        <h2 class="section-title">Initiate Contact</h2>
+        <div class="gutter-line" style="margin: 1rem auto 0"></div>
+      </div>
+
+      <div class="contact-terminal fade-in" style="margin-top: 2.5rem">
+        <div class="hud-corner hud-tl"></div>
+        <div class="hud-corner hud-tr"></div>
+        <div class="hud-corner hud-bl"></div>
+        <div class="hud-corner hud-br"></div>
+        <div class="terminal-bar">
+          <div class="terminal-dot td-r"></div>
+          <div class="terminal-dot td-y"></div>
+          <div class="terminal-dot td-g"></div>
+          <span class="terminal-title">terminal — contact_module.sh</span>
+        </div>
+        <div class="terminal-body">
+          <div class="terminal-prompt">
+            <span style="color: var(--green)">visitor@codex</span><span>:</span
+            ><span style="color: var(--cyan)">~</span
+            ><span>$ ./contact --init</span>
+            <span class="blink">▌</span>
+          </div>
+
+          <div class="social-row">
+            <a href="mailto:vaniaabbas2@gmail.com" class="social-btn">
+              <svg viewBox="0 0 24 24" stroke-width="1.5">
+                <rect x="2" y="4" width="20" height="16" rx="2" />
+                <polyline points="2,4 12,13 22,4" />
+              </svg>
+              Email
+            </a>
+            <a href="https://github.com/VaniaAbbas01" class="social-btn">
+              <svg viewBox="0 0 24 24" stroke-width="1.5">
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                />
+              </svg>
+              GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/vania-a-201335207/"
+              class="social-btn"
+            >
+              <svg viewBox="0 0 24 24" stroke-width="1.5">
+                <path
+                  d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                />
+                <rect x="2" y="9" width="4" height="12" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+              LinkedIn
+            </a>
+          </div>
+
+          <form class="contact-form" netlify name="contact">
+            <div class="form-row">
+              <div class="form-field">
+                <label for="name">name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="your_name"
+                />
+              </div>
+              <div class="form-field">
+                <label for="email">email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="you@domain.com"
+                />
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="subject">subject</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="quest_title"
+              />
+            </div>
+            <div class="form-field">
+              <label for="msg">message</label>
+              <textarea
+                id="msg"
+                name="message"
+                rows="5"
+                placeholder="Describe your quest. Books, games, and APIs all welcome…"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="btn-rpg btn-gold"
+              style="align-self: flex-start"
+            >
+              ▶ Transmit Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p class="footer-quote">
+        "Not all those who wander are lost." — J.R.R. Tolkien
+      </p>
+      <p class="footer-right">
+        © 2026 · Vania · Crafted with ☕ paperbacks &amp; save states
+      </p>
+    </footer>
+
+    <script>
+      const io = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e) => {
+            if (e.isIntersecting) {
+              e.target.classList.add("vis");
+              io.unobserve(e.target);
+            }
+          });
+        },
+        { threshold: 0.1 },
+      );
+      document.querySelectorAll(".fade-in").forEach((el) => io.observe(el));
+    </script>
+  </body>
+</html>
